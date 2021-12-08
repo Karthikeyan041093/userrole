@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: userroles
+   
+  cloud:
+    config:
+      uri: http://localhost:8888     
+    vault:
+      kv:
+        enabled: true
+      host: localhost
+      port: 8200
+      scheme: http
+      token: s.0SWcWmd8Mh4cjXsYPyYGudUs
